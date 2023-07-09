@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garanta sua carteirinha!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <img src="assets/img/logo.svg" alt="Logo">
+        </div>
+
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-item"><a href="index.html">Início</a></li>
+                <li class="nav-item"><a href="notices.html">Notícias</a></li>
+                <li class="nav-item"><a href="register.html">Cadastre-se</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="form">
+            <form>
+                <div class="form-title">
+                    <h1>Faça parte do nosso fã clube!</h1>
+                    <p>
+                        Realize seu cadastro e adquira sua carteirinha de fã agora mesmo!
+                    </p>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for=firstName">Nome</label>
+                        <input type="text" id="firstName" class="first-name" placeholder="Digite seu nome">
+                        <span class="firstName">Este campo é obrigatório!</span>
+                    </div>
+
+                    <div class="input-box">
+                        <label for=lastName">Sobrenome</label>
+                        <input type="text" id="lastName" class="last-name" placeholder="Digite seu sobrenome">
+                        <span class="lastName">Este campo é obrigatório!</span>
+                    </div>
+
+                    <div class="input-box">
+                        <label for=surName">Apelido</label>
+                        <input type="text" id="surName" class="surname" placeholder="Digite um apelido">
+                        <span class="surName">Este campo é obrigatório!</span>
+                    </div>
+
+                    <div class="input-box">
+                        <label for=email">E-mail</label>
+                        <input type="email" id="email" class="e-mail" placeholder="Digite seu e-mail">
+                        <span class="e-mail">Este campo é obrigatório!</span>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="passWord">Senha</label>
+                        <input type="password" id="passWord" class="password" placeholder="********">
+                        <span class="password">Este campo é obrigatório!</span>
+                    </div>
+
+                    <div class="gender-options">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="gender-group">
+                            <select name="gender" id="gender">
+                                <option value="undefined">Não Informado</option>
+                                <option value="female">Feminino</option>
+                                <option value="male">Masculino</option>
+                                <option value="none">Prefiro não dizer</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="register-btn">
+                    <button type="submit"><a href="complete.html">Me tornar fã de carteirinha!</a></button>
+                </div>
+            </form>
+        </div>
+        
+    </main>
+
+    <footer class="footer-container">
+        <h1> .a.s.g &copy; Todos os direitos reservados - 2023</h1>
+    </footer>
+</body>
+</html>
